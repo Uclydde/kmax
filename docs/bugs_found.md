@@ -66,6 +66,26 @@
 
 ## Linux kernel
 
+### media: drivers: media: pci: sta2x11: fix Kconfig dependency on GPIOLIB
+
+2021-03-11 [Commit](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=24df8b74c8b2fb42c49ffe8585562da0c96446ff)
+
+### drivers: tty: serial: IMX_EARLYCON: fix Kconfig dependency on SERIAL_CORE
+
+2021-03-10 [Commit](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=196ebe5c000afbfe67b8561f716e365174552bd7)
+
+### staging: rtl8192e: fix kconfig dependency on CRYPTO
+
+2021-03-10 [Commit](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=7c36194558cf49a86a53b5f60db8046c5e3013ae)
+
+### fs: nfsd: fix kconfig dependency warning for NFSD_V4
+
+2021-03-06 [Commit](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=7005227369079963d25fb2d5d736d0feb2c44cf6)
+
+### RDMA/rxe: Fix missing kconfig dependency on CRYPTO
+
+2021-03-01 [Commit](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=475f23b8c66d2892ad6acbf90ed757cafab13de7)
+
 ### net: marvell: build error due to unmet dependency for MVMDIO by MV643XX_ETH
 
 2020-11-05 [Report](https://bugzilla.kernel.org/show_bug.cgi?id=210063)
